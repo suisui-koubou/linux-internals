@@ -13,7 +13,6 @@
 
 
 #define XSTATE_CPUID		0x0000000d
-
 /// __cpuIdCount - Execute the specified cpuid and return the 4 values in
 /// the specified arguments.  If we can't run cpuid on the host, return true.
 static bool __cpuIdCount(unsigned id, unsigned count, 
